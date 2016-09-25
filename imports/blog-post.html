@@ -1,0 +1,29 @@
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>
+    <meta charset="utf-8">
+    <title>Basic HTML Imports</title>
+  </head>
+  <body>
+ <div id="blog-post">  
+  <h1>Awesome header</h1>
+  <p>
+    Here is some really interesting paragraph content.
+    It comes with its own stylesheet!
+  </p>
+</div>
+
+<script>  
+  // thisDoc refers to the "importee", which is blog-post.html
+  var thisDoc = document.currentScript.ownerDocument;
+
+  // thatDoc refers to the "importer", which is index.html
+  var thatDoc = document;
+
+  // grab the contents of the #blog-post from this document
+  // and append it to the importing document.
+  var content = thisDoc.querySelector('#blog-post');
+  thatDoc.body.appendChild(thatDoc.importNode(content, true));
+</script> 
+  </body>
+</html>  
