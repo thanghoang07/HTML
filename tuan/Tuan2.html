@@ -25,47 +25,25 @@
 <body>
         <!-- phần dưới menu -->
         <div id="content">
-			<center>
+			<div style="text-align: center">
 				<article>
 					<h2>Danh sách các bài: </h2>
 				</article>
-			    <article>
-                    <p id="demo">2.Chủ đề html:		                        
-                    <button type="button" class="btn btn-primary" onclick="myFunction3()">Tải về máy</button>
-                    <button type="button" class="btn btn-primary" onclick="myFunction4()">Xem online</button>
-                    </p>
-				</article>
-			</center>
+                <article>
+                    <div>
+                    <h4>1.Chủ đề HTML:</h4>
+                    <!-- Trigger the modal with a button -->
+                        <button type="button" class="btn btn-info btn-lg" onclick="myFunction3()"><span class="glyphicon glyphicon-download-alt"></span> Tải về máy</button>
+                        <button type="button" class="btn btn-info btn-lg" onclick="myFunction4()"><span class="glyphicon glyphicon-folder-open"></span> Xem online</button>
+                    
+                    </div>
+                </article>
+            </div>
 		</div>
-       <!-- phần cuối trang -->
-            <footer class="footer-distributed">
-			<div class="footer-right">
-				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-				<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-				<a href="https://www.youtube.com/"><i class="fa fa-youtube"></i></a>
-				<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
-			</div>
-			<div class="footer-left">
-				<p class="footer-links">
-					<a href="index.html" title="Header" data-toggle="popover" data-trigger="hover" data-content="Tới trang chủ">Home</a>
-					·
-					<a href="about.html" title="Header" data-toggle="popover" data-trigger="hover" data-content="Tới about">About</a>
-					·
-					<a href="baiTap.html" title="Header" data-toggle="popover" data-trigger="hover" data-content="Tới bài tập">Bài tập</a>
-					·
-					<a href="notFound.html" title="Header" data-toggle="popover" data-trigger="hover" data-content="Tới blog">Blog</a>
-					·
-					<a href="contact.html" title="Header" data-toggle="popover" data-trigger="hover" data-content="Tới contact">Contact</a>
-				</p>
-				<p>Thanghoang &copy; 2016</p>
-			</div>
-		</footer>
-        <!--javascript-->
-        <script src="../js/myScript2.js"></script>
-        <script>
-            $(document).ready(function(){
-            $('[data-toggle="popover"]').popover();
-            });
-        </script>
+      <!-- phần cuối trang -->
+    
+	<div includeHtml="/fragment/footer.html"></div>
+	<!--js-->
+	<script>includeHTMLFile();</script>
 </body>
 </html>

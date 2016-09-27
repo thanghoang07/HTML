@@ -9,6 +9,29 @@ function t1() {
 function t2() {
 	window.location.href = '../tuan/Tuan2.html';
 }
+function t3() {
+	window.location.href = '../tuan/Tuan3.html';
+}
+function t4() {
+	window.location.href = '../tuan/Tuan4.html';
+}
+// thực hành
+function th1() {
+	window.location.href = '../lab/lab1.html';
+}
+function th2() {
+	window.location.href = '../lab/lab2.html';
+}
+/*Trong lab 1*/
+function lab1Ex1(){
+    window.location.href = '../lab/lab1/ex1.html';
+}
+function lab1Ex2(){
+    window.location.href = '../lab/lab1/ex2.html';
+}
+function lab1Ex3(){
+    window.location.href = '../lab/lab1/ex3.html';
+}
 /*Trong tuan*/
 function myFunction() {
 	//alert('Tải về máy');
@@ -19,13 +42,22 @@ function myFunction2() {
 	window.location.href = 'https://goo.gl/DRT2yK';
 }
 function myFunction3() {
-	alert('Tải về máy');
-	window.location.href = '../notFound.html';
+	//alert('Tải về máy');
+	window.location.href = '../baiTap/tuan2/bai1.docx';
 }
 function myFunction4() {
-	alert('Xem online');
+	//alert('Xem online');
 	window.location.href = '../notFound.html';
 }
+function myFunction5() {
+	//alert('Tải về máy');
+	window.location.href = '../notFound.html';
+}
+function myFunction6() {
+	//alert('Xem online');
+	window.location.href = '../notFound.html';
+}
+/*chen file vào*/
 function includeHTMLFile() {
 	var z, i, a, file, xhttp;
 	z = document.getElementsByTagName("*");
