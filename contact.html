@@ -28,17 +28,32 @@
 <body>
         <div w3-include-html="/fragment/head.html"></div>
 		<!-- phần dưới menu -->
-		<div id="content">
-			<article>
-				<p>
-				<br>Responsive là một tính từ để chỉ một website có thể hiển thị tương thích trên mọi kích thước hiển thị của trình duyệt. Ví dụ thông thường nếu giao diện website đặt một chiều rộng cố định là 800px thì chắc chắn nếu xem ở trình duyệt điện thoại với chiều ngang chỉ từ 320px – 420px sẽ không hiển thị hết được.</br>
-
-				<br>Có thể bạn cho rằng chúng ta có thể gán giá trị chiều rộng từ tuyệt đối (800px) sang kiểu giá trị tương đối là phần trăm (%) thì có thể sẽ hiển thị tương ứng được. Điều này cũng đúng, nhưng giả sử website bạn có 3 cột trên một hàng thì liệu rằng trên trình duyệt di động, mắt thường của con người có thể thấy chi tiết mà không cần phóng to màn hình hay không? Do vậy, chúng ta sẽ muốn giao diện sẽ được hiển thị khác đi một xíu trên trình duyệt nhỏ hơn các trình duyệt thông thường, và Responsive là giải pháp làm việc này nhanh nhất và dễ nhất.</br>
-
-				<br>Responsive hoạt động bằng cách chúng ta sẽ viết CSS để cho trình duyệt hiểu và thực thi nó trên các kích thước trình duyệt nhất định. Chẳng hạn bạn có thể thiết lập một đoạn CSS nào đó chỉ áp dụng cho các trình duyệt có kích thước chiều rộng tối đa là 320px (điện thoại). Điều này có nghĩa là Responsive là một kỹ thuật thiết kế được xử lý từ client-side chứ không hề gửi truy vấn nào đến máy chủ để xử lý (server-side) nên nó có một nhược điểm là làm trình duyệt của bạn phải mất nhiều thời gian hơn để xử lý CSS.</br>
-				</p>
-				</article>
+		<div class="jumbotron text-center">
+            <h1 style="color: green">Chào mừng!</h1>
+            <p>Trang web học giao tiếp người máy</p>
         </div>
+  
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 style="color: red">Sinh viên</h3>
+                    <p><b>Hoàng Đức Thắng</b></p>
+                    <p>Mã Sv: 14130323</p>
+                    <p>Lớp: DH14DT</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Column 2</h3>
+                    <p>...........................................................</p>
+                    <p>.....................................................................</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Column 3</h3>
+                    <p>...........................................................</p>
+                    <p>.....................................................................</p>
+                </div>
+            </div>
+        </div>
+
 		<!-- phần cuối trang -->
             <div w3-include-html="/fragment/footer.html"></div> 
 <!--      js-->
