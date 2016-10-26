@@ -15,12 +15,18 @@ function t3() {
 function t4() {
 	window.location.href = '../tuan/Tuan4.html';
 }
+function t5() {
+	window.location.href = '../tuan/Tuan5.html';
+}
 // thực hành
 function th1() {
 	window.location.href = '../lab/lab1.html';
 }
 function th2() {
 	window.location.href = '../lab/lab2.html';
+}
+function th3() {
+	window.location.href = '../lab/lab3.html';
 }
 /*Trong lab 1*/
 function lab1Ex1(){
@@ -31,6 +37,10 @@ function lab1Ex2(){
 }
 function lab1Ex3(){
     window.location.href = '../lab/lab1/ex3.html';
+}
+/*Trong lab 2*/
+function lab2Ex1(){
+    window.location.href = '../lab/lab2/ex1.html';
 }
 /*Trong tuan*/
 function myFunction() {

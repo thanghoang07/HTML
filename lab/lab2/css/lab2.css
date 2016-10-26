@@ -1,0 +1,69 @@
+/**/
+    body{
+        background-color: #faf8ef;
+        margin-left: 15%;
+        margin-right: 15%; 
+        border: 3px double red; 
+		padding: 10px 10px 10px 10px;  
+        font-family: sans-serif; 
+    }
+    /**/
+    .info{
+        text-align: center;
+    }
+	.info>h1{        
+		font-size: 25px;
+   		color: blueviolet;
+    	text-shadow: black 0.1em 0.1em 0.2em;
+	}
+	.info>p{
+        font-style: oblique;
+		font-weight: bold;
+	}
+    .info>.info1>span{
+        font-style: normal;
+    }
+    /**/
+    .appetizers{
+    	text-align: center;
+    }
+    .appetizers>dl{
+    	text-align: left;
+    }
+    /**/
+    h2{
+        color: blueviolet;
+    	font-variant: small-caps;
+    	text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    p{
+    	text-align: center;
+    }
+    .price{
+        font-style: italic;
+    }
+    strong{
+        font-style: italic;
+    }
+    dt{
+        font-weight: bold;
+        color: brown;
+        font-size: 18px;
+    }
+    /**/
+    .entrees{
+    	text-align: left: 
+    }
+    .entrees>h2{
+    	text-align: center;
+    }
+    .entrees>dl{
+        text-align: left;
+    }
+    .entrees>.warning{
+    	text-align: left;
+    	font-style: normal;
+    	color: red;
+    	font-size: 12px;
+    }
